@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Data Structure &mdash; Compare</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content" id="content">
+            <nav class="sidebar">
+                <div class="sidebar-head">
+                        <button class="accordion"> Rules</button>
+                        <div class="panel">
+                                <p>DEAR USER :<br><br> 1.Please enter your codes with PYTHON 3.<br><br>
+                                2.Use print("*") for printing .
+                                </p>
+                        </div>
+                </div> 
+            </nav>       
+            <div class="container">
+                <div id="c-box"></div>
+                <div class="header">
+                    <a href="index.html" class="single not-active">Single</a>
+                    <a href="compare.html" class="compare active">Compare</a>
+                </div>
+
+                <div class="content" id="comp-box">
+                    <div class="box-1 boxs" id="comp-box">
+                        <textarea name="firstTextarea" id="compOne" cols="38" rows="14" class="area1" placeholder="First Code . . ."></textarea>
+                    </div>
+
+                    <div class="box-2 boxs" id="comp-box">
+                        <textarea name="secondTextarea" id="compTwo" cols="38" rows="14" class="area2" placeholder="Second Code . . ."></textarea>
+                    </div>
+                </div>
+
+                <div class="calc-btn">
+                    <button onclick="Compare()" id="calct" class="calc">Calculate</button>
+                </div>
+            </div>
+            <footer class="footer">
+                <h4 class="sub">Fork me on github</h4>
+                <a href="https://github.com//fatemealz25" target="_blank"><img src="img/github.png" alt=""></a>
+            </footer>
+        </div>        
+    </div>
+
+
+    <div class="boxs" id="resBox">
+        <div id="result">
+            <div id="final--result"> 
+                <div class="loading-circle" id="loading-Box">
+                    <!-- <p class="loadingText">Loading . . .</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

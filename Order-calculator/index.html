@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Data Structure &mdash; Single</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Roboto+Condensed" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="content">
+            <nav class="sidebar">
+                <div class="sidebar-head">
+                        <button class="accordion"> Rules</button>
+                        <div class="panel">
+                                <p>DEAR USER :<br><br> 1.Please enter your codes with PYTHON 3.<br><br>
+                                2.Use print("*") for printing .
+                                
+                                </p>
+                        </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="header">
+                    <a href="index.html" onclick=changPage(c-box) class="single active">Single</a>
+                    <a href="compare.html" class="compare not-active">Compare</a>
+                </div>
+                <div class="box boxs" id="c-box">
+                        <textarea name="textarea" id="calcOne" cols="90" rows="16" class="textarea" placeholder="Put your text in textarea and push calculate to calcute the order"></textarea>
+                </div>
+
+                <div class="calc-btn">
+                    <button onclick="calculate(calcOne,0)" id="calct" class="calc">Calculate</button>
+                </div>
+            </div>
+            <footer class="footer">
+                <h4 class="sub">Fork me on github</h4>
+                <a href="https://github.com//fatemealz25" target="_blank"><img src="img/github.png" alt=""></a>
+            </footer>
+        </div>
+
+        <div class="boxs" id="resBox">
+            <div id="result">
+                <div id="final--result"> 
+                    <div class="loading-circle" id="loading-Box">
+                        <!-- <p class="loadingText">Loading . . .</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
